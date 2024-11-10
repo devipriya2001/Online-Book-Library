@@ -1,0 +1,156 @@
+body {
+    display : inline;
+}
+  
+  /* Navbar Styles */
+  .navBar {
+    background-color: #333;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box; /* Include padding in total width */
+  }
+  
+  /* Home Page Styles */
+  .home h1 {
+    font-size: 2.5em;
+    text-align: center;
+  }
+  
+  .home h2 {
+    font-size: 2em;
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .home ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+  }
+  
+  .home li {
+    margin: 10px 0;
+    font-size: 1.2em;
+  }
+  
+  .home a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .home a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Browse Books Page */
+  .browse-books {
+    width: 100%;
+    text-align: center;
+  }
+  
+  .browse-books input {
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 60%;
+    max-width: 600px;
+    font-size: 1em;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .browse-books ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .browse-books li {
+    margin: 10px 0;
+  }
+  
+  .browse-books a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .browse-books a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Add Book Page */
+  .add-book form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    align-items: center;
+  }
+
+  
+  .add-book input {
+    padding: 10px;
+    margin-bottom: 15px;
+    font-size: 1em;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 100%;
+  }
+  
+  .add-book button {
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .add-book button:hover {
+    background-color: #218838;
+  }
+  
+  /* Book Details Page */
+  .book-details {
+    width: 100%;
+    max-width: 900px;
+    text-align: center;
+    margin : auto;
+  }
+  
+  .book-details h1 {
+    font-size: 2.5em;
+  }
+  
+  .book-details p {
+    font-size: 1.2em;
+    margin: 10px 0;
+  }
+  
+  .book-details a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .book-details a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Not Found Page */
+  .not-found {
+    text-align: center;
+  }
+  
+  .not-found a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .not-found a:hover {
+    text-decoration: underline;
+  }
+  
+  
